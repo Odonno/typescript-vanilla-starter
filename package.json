@@ -1,0 +1,21 @@
+{
+    "name": "typescript-vanilla-template",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "webpack --mode development",
+        "build-prod": "webpack --mode production",
+        "stats": "webpack --profile --json >> stats.json",
+        "watch": "webpack --watch",
+        "serve": "webpack-dev-server --mode development --progress --color"
+    },
+    "devDependencies": {
+        "css-loader": "^4.3.0",
+        "file-loader": "^6.1.0",
+        "style-loader": "^1.2.1",
+        "ts-loader": "^8.0.3",
+        "typescript": "^4.0.2",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
