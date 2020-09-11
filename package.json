@@ -2,6 +2,7 @@
     "name": "typescript-vanilla-template",
     "version": "0.0.1",
     "scripts": {
+        "start": "npm run serve",
         "build": "webpack --mode development",
         "build-prod": "webpack --mode production",
         "stats": "webpack --profile --json >> stats.json",
